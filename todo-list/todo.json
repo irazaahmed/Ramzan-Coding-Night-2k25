@@ -1,6 +1,10 @@
 [
     {
-        "task": "go to school",
+        "task": "do office work",
         "done": true
+    },
+    {
+        "task": "return to home",
+        "done": false
     }
 ]
