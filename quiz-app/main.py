@@ -79,6 +79,7 @@ selected_option = st.radio("Choose your answer", question["options"], key="answe
 if st.button("Submit Answer"):
     if selected_option == question["answer"]:
         st.success("Correct Answer! 🎉")
+        st.balloons()
     else:
         st.error("Incorrect Answer! 😢, The Correct answer is "  + question["answer"])
     
